@@ -1,18 +1,31 @@
 {
-    "name": "tensorflowjs",
-    "version": "1.0.0",
-    "description": "MachineLearning",
+    "name": "tensorflow-js-playground",
+    "version": "2.0.0",
+    "description": "Interactive machine learning demos with TensorFlow.js featuring linear regression and binary classification",
     "main": "index.js",
     "dependencies": {
-        "@material/top-app-bar": "^7.0.0",
-        "@tensorflow/tfjs": "^2.0.1",
-        "@tensorflow/tfjs-node": "^2.0.1",
-        "http-server": "^0.12.3"
+        "@material/top-app-bar": "^14.0.0",
+        "@tensorflow/tfjs": "^4.11.0",
+        "@tensorflow/tfjs-node": "^4.11.0",
+        "http-server": "^14.1.1"
     },
     "devDependencies": {},
     "scripts": {
+        "start": "http-server -p 8080 -c-1",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "keywords": [
+        "tensorflow",
+        "machine-learning",
+        "tensorflowjs",
+        "linear-regression",
+        "classification",
+        "data-science"
+    ],
     "author": "Timothy Balch",
-    "license": "ISC"
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CodeBalch25/Machine-Learning-Tensorflow.js.git"
+    }
 }
